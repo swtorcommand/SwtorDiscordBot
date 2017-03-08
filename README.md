@@ -6,7 +6,7 @@ You will need:
 - A (novice) programmer (you probably have one if you run a gaming related Discord, chances are high)
 - A Discord Bot Token [see apps](https://discordapp.com/developers/applications/me#top)
 
-Setting up
+### Setting up
 1) in /config/config.json replace the token and root id with your settings.  
 2) change the "roles" array to be roles users are allowed to obtain via !roles (NOTE: IN LOWERCASE)  
 3) change "channels" VALUES to match that of your server. Do NOT change the keys unless you change them in code too.  

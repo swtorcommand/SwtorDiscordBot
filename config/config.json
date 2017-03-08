@@ -1,0 +1,30 @@
+{
+    "root": "<removed>",
+    "token": "<removed>",
+    "prefix": "!",
+    "roles": [
+        "the ebon hawk",
+        "the bastion",
+        "begeren colony",
+        "the harbinger",
+        "the shadowlands",
+        "jung ma",
+        "prophecy of the five",
+        "jedi covenant",
+        "t3-m4",
+        "darth nihilus",
+        "tomb of freedon nadd",
+        "jar'kai sword",
+        "the progenitor",
+        "vanjervalis chain",
+        "battle meditation",
+        "mantle of the force",
+        "the red eclipse"
+    ],
+    "channels": {
+    	"bot_logs": "bot-logs",
+    	"member_req": "member-req",
+    	"welcome_lounge": "welcome-lounge",
+    	"rules_lounge": "rules-lounge"
+    }
+}

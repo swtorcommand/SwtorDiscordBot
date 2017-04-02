@@ -10,7 +10,22 @@ exports.run = (client, message, args) => {
     if (client.config.roles.indexOf(server) > -1) {
         let role = client.getRoleByName(message.guild.id, server);
         if (role) {
-            message.member.addRole(role);
+            if (message.member.roles.has(role.id)) {
+                message.member.removeRole(role);
+                message.channel.sendMessage(`${message.author}, you were removed from the requested role.`)
+                    .then(function(msg) {
+                        msg.delete(5000);
+                    })
+                    .catch(console.error);
+            }
+            else {
+                message.member.addRole(role);
+                message.channel.sendMessage(`${message.author}, you were added to the requested role.`)
+                    .then(function(msg) {
+                        msg.delete(5000);
+                    })
+                    .catch(console.error);
+            }
         } else {
             message.channel.sendMessage("Sorry, that's not a valid server. Please use the exact full name.")
                 .then(function(msg) {

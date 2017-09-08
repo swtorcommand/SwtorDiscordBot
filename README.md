@@ -1,14 +1,15 @@
 # SwtorDiscordBot
-The bot used in /r/swtor's Discord.
+The source of the bot used in /r/swtor's Discord (https://discord.gg/swtor).
 
 You will need:
 - [Node.js](https://nodejs.org/en/)
-- A (novice) programmer (you probably have one if you run a gaming related Discord, chances are high)
+- A (novice) programmer (you probably have one if you run a gaming related Discord)
 - A Discord Bot Token [see apps](https://discordapp.com/developers/applications/me#top)
+- **SOME BASIC UNDERSTANDING OF CODING AND DEPLOYING BOTS.**
 
 ### Setting up
-1) in /config/config.json replace the token and root id with your settings.  
-2) change the "roles" array to be roles users are allowed to obtain via !roles (NOTE: IN LOWERCASE)  
+1) in /config/config.json replace the bot token and root id (your user id) with your own.  
+2) change the "roles" array to be roles users are allowed to obtain via !roles (NOTE: IN LOWERCASE).
 3) change "channels" VALUES to match that of your server. Do NOT change the keys unless you change them in code too.  
 4) In the root folder run:  
 ```

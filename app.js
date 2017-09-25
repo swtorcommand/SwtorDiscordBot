@@ -4,7 +4,7 @@ const fs = require("fs");
 
 // Let's extend the client object with these.
 client.config = require("./config/config.json");
-client.commands = require("./config/commands.json"");
+client.commands = require("./config/commands.json");
 
 client.getRoleByName = function (guild, rank) {
     return client.guilds.get(guild).roles.find(role => String(role.name).toLowerCase() === rank);

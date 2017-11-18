@@ -1,30 +1,33 @@
 {
-    "root": "<removed>",
-    "token": "<removed>",
+    "root": "241740028353576961",
+    "token": "MzAzMDA4NzYzNTk2NzY3MjMy.DJOl5w.glccHXExfZyZX8Y3h1dwh41znpc",
     "prefix": "!",
     "roles": [
-        "the ebon hawk",
-        "the bastion",
-        "begeren colony",
-        "the harbinger",
-        "the shadowlands",
-        "jung ma",
-        "prophecy of the five",
-        "jedi covenant",
-        "t3-m4",
-        "darth nihilus",
-        "tomb of freedon nadd",
-        "jar'kai sword",
-        "the progenitor",
-        "vanjervalis chain",
-        "battle meditation",
-        "mantle of the force",
-        "the red eclipse"
+       	"podcast host",
+        "podcast co-hosts",
+        "gaming friend",
+        "mute",
+        "gamer",
+		"gaming friend",
+		"updates",
+		"roleplay",
+		"follower",
+		"subscriber",
+		"beginner",
+		"wow",
+		"warframe",
+		"swtor",
+		"sto",
+		"eso",
+		"dreadnought",
+		"ops",
+		"eve"
+		
     ],
     "channels": {
     	"bot_logs": "bot-logs",
     	"member_req": "member-req",
-    	"welcome_lounge": "welcome-lounge",
+    	"welcome_lounge": "welcome",
     	"rules_lounge": "rules-lounge"
     }
 }

@@ -4,5 +4,8 @@
     "addcommand",
     "role",
     "dice",
-    "decide"
+    "decide",
+	"report",
+	"8ball",
+	"update"
 ]
